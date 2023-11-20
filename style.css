@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* Home page css */
+.bgImage-1 {
+  background-image: url("images/pexels-alex-montes-1820563.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.bg-dark {
+  opacity: 0.7;
+}
+
+.parent-1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.child-1 {
+  position: relative;
+  top: 10rem;
+  left: 10rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .child-1 {
+    position: relative;
+    top: 9rem;
+    left: 1.2rem;
+  }
+}
+/* section page css */
+.bgColor-1 {
+  background-color: rgb(224, 216, 216);
+}
+/* section second page css */
+.bgColor-2 {
+  background-color: rgb(75, 73, 73);
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+.para {
+  position: relative;
+  top: 30%;
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+}
+.border {
+  /* z-index: 1; */
+  position: relative;
+  bottom: 30%;
+  background-color: rgb(180, 187, 184);
+}
+
+@media only screen and (max-width: 768px) {
+  .border {
+    position: relative;
+    bottom: 25%;
+    height: auto;
+  }
+  #card2 {
+    padding: 10px !important;
+  }
+  #para2 {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .border {
+    position: relative;
+    bottom: 30%;
+    background-color: rgb(180, 187, 184);
+    height: auto;
+  }
+  #para2 {
+    font-size: 12px;
+  }
+}
+
+img {
+  height: 250px;
+}
+
+.bgImage-2 {
+  background-image: url("images/pexels-tima-miroshnichenko-5846262.jpg");
+  background-size: 100% 100%;
+
+  width: 100%;
+}
+/* .child {
+  padding: 10px;
+} */
+.bgImage-footer {
+  background-image: url("./images/pexels-jill-burrow-6387805.jpg");
+  background-size: cover;
+}
+
+#footerBox {
+  background-color: black;
+  position: relative;
+  top: 50%;
+  padding: 10px;
+}
+
+/* animation effect */
+
+.zoom {
+  transition: transform 0.2s;
+}
+.zoom:hover {
+  transform: scale(1.1);
+}
